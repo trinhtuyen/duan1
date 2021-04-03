@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    tools:context=".Doc_Truyen_Fragment"
+    android:orientation="vertical">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="111dp"
+        android:background="#585A4F">
+
+        <EditText
+            android:id="@+id/editTextTextPersonName2"
+            android:layout_width="326dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="2dp"
+            android:background="@drawable/border_01"
+            android:ems="10"
+            android:fontFamily="@font/sitka_banner"
+            android:hint="Tìm Kiếm..."
+            android:inputType="textPersonName"
+            android:textAlignment="center"
+            app:layout_constraintEnd_toStartOf="@+id/imageView3"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName3"
+            android:layout_width="114dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/border_01"
+            android:ems="10"
+            android:fontFamily="@font/sitka_banner"
+            android:inputType="textPersonName"
+            android:textAlignment="center"
+            android:textSize="15dp"
+            app:layout_constraintStart_toEndOf="@+id/textView"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2"
+            tools:text="Tên Truyện" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName4"
+            android:layout_width="134dp"
+            android:layout_height="38dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/border_01"
+            android:ems="10"
+            android:fontFamily="@font/sitka_banner"
+            android:inputType="textPersonName"
+            android:textAlignment="center"
+            android:textSize="15dp"
+            app:layout_constraintStart_toEndOf="@+id/textView2"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2"
+            tools:text="Tất cả" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/border_btn_search"
+            android:src="@drawable/search"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/sitka_banner"
+            android:text="Theo"
+            android:textColor="#FFFFFF"
+            android:textSize="15dp"
+            app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName2"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/sitka_banner"
+            android:text="Thể Loại"
+            android:textColor="#FFFFFF"
+            android:textSize="15dp"
+            app:layout_constraintStart_toEndOf="@+id/editTextTextPersonName3"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="621dp">
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</LinearLayout>
