@@ -6,5 +6,7 @@
     <color name="bg_color">#323232</color>
     <color name="borderSearchButton">#9B9C95</color>
     <color name="border01">#34352F</color>
+    <color name="border02">#000000</color>
+    <color name="text_color">#F9A801</color>
 
 </resources>
