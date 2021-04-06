@@ -9,7 +9,12 @@
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@drawable/navigation_item_selector"
+        app:itemBackground="@drawable/navigation_item_selector"
+        app:itemTextColor="#FFFFFF"
+        app:labelVisibilityMode="auto"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/navigation_item" />
 </androidx.constraintlayout.widget.ConstraintLayout>

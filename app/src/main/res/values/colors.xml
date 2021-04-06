@@ -8,5 +8,7 @@
     <color name="border01">#34352F</color>
     <color name="border02">#000000</color>
     <color name="text_color">#F9A801</color>
+    <color name="nav_item_checked">#6A6C62</color>
+    <color name="nav_bar_background">#585A4F</color>
 
 </resources>
