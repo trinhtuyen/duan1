@@ -27,7 +27,6 @@ public class Doc_Truyen_Fragment extends Fragment {
 
     // TODO: Rename and change types of parameters
     private ListView listView;
-    private List<truyen> itemslist;
     private truyenAdapter truyenAdapter;
 
     public Doc_Truyen_Fragment() {
@@ -58,7 +57,6 @@ public class Doc_Truyen_Fragment extends Fragment {
 
     private class truyenAdapter extends BaseAdapter {
         private Context context;
-        private List<truyen> truyenList;
         @Override
         public int getCount() {
             return 0;
